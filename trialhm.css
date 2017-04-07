@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Press Start 2P', cursive;
+
+    src: url("https://fonts.googleapis.com/css?family=Press+Start+2P"); 
+}
+body {
+    background-image: url("screen shot 2015-06-05 at 10.07.47 am.jpg");
+    font-family: 'Press Start 2P', cursive;
+    background-repeat:no-repeat;
+}
+
+#notStart{
+
+	font-size: 25px
+}
+
+
+
+.logo{
+	display: block;
+    margin: 0 auto;
+    height: 180px;
+    width: 340px;
+}
+
+
+
+.main{
+	height: 370px;
+}
+
+.images{
+	float: left;
+	border-right-style: solid;
+	width: 500px;
+	height: 330px;
+	padding-top: 50px;
+
+}
+
+#hero-pic{
+	
+	width: 300px; 
+	height: 300px;
+
+}
+
+
+.footer{
+	font-family: "coalition";
+	float: bottom;
+	clear:both;
+	border-top: solid;
+}

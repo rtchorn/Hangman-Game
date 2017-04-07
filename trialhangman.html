@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html>
+
+
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="trialhm.css">
+
+
+<head>
+  <title>HangMario!</title>
+
+
+</head>
+
+
+
+<body onkeypress="StartGame(event)">
+
+<div class ="header"> 
+
+  <img src = "Supermario.jpg" class="logo">
+
+
+</div>
+
+
+
+
+<div class="main">
+
+  <div class="images">
+    
+    <center>
+    <img src="piq_330234_400x400.png" id="mario-pic">
+    </center>
+  </div>
+  
+
+
+
+  <div class="hangman">
+    <p id = "problem">_ _ _ _ _ _ _ _ _ _ _ _ _ _</p>
+    <p id = "notStart">Welcome to HangMario!!</p>
+
+    <p id = "guesses">Press any key to start</p>
+    <p id = "wins">Lives: 0 </p>
+    <p id = "loss">Deaths: 0</p>  
+    <p>Characters Entered</p>
+    <p id = "entered"></p>
+
+
+  </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+<script type="text/javascript" src="trialhm.js"></script>
